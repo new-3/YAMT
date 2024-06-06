@@ -1,5 +1,6 @@
-# 모드팩 퀘스트 (JSON) 번역기
+# 모드팩 퀘스트 번역기 Yet Another Modpack Translator
 All the Mods 9 TTS 번역을 위한 파이썬 프로그램 by new3
+영어 json 파일을 한국어로 번역합니다.
 
 ## 사용방법
 1. 모드팩 다운 뒤 `kubejs/assets/kubejs/lang` 폴더 안의 `en_us.json`을 복사해서 `input` 폴더 안에 붙여넣기합니다.
