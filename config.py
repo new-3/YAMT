@@ -13,8 +13,8 @@ class Config:
     input_path = path.join(__root_dir, __input_folder, __input_file)
     output_path = path.join(__root_dir, __output_folder, __output_file)
 
-    if not path.exists(output_path):
-        os.makedirs(output_path)
+    if not path.exists(__output_folder):
+        os.makedirs(__output_folder)
 
 
 class Glossary:
