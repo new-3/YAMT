@@ -67,7 +67,7 @@ def translate(data):
         return wrapped_text
 
     def unwrap(text):
-        pattern = r'(&[0-9a-z])|(\\n)'
+        pattern = r'("&[0-9a-z]")|("\\n")'
         unwrapped_text = re.sub(pattern, lambda x: x.group(0)[1:-1], text)
         return unwrapped_text
 
